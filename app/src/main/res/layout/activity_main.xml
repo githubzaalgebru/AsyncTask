@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:onClick="startInForeground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start In Foreground" />
+
+    <Button
+        android:onClick="startInBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start In Background" />
+
+    <Button
+        android:onClick="testToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TEST" />
+
+</LinearLayout>
