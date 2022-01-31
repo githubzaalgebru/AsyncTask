@@ -12,7 +12,7 @@ class BackgroundTask( private val context : Context ) : AsyncTask< Int, Int, Str
     override fun doInBackground( vararg ulaz : Int? ) : String {
         val taskCount = ulaz[0]
         for( i in 1..taskCount!! ) {
-            Thread.sleep( 4000 )
+            Thread.sleep( 3000 )
             publishProgress( ( i/taskCount.toDouble( ) * 100 ).toInt( ) )
             Log.i( TAG, "$i od $taskCount gotovo" )
         }
